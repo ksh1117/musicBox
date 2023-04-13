@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의앱</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="https://supsok.github.io/gbsw/touchstrap/css/touchstrap.css">
+</head>
+<body>
+    <section class="page center" id = "page01">
+        <header class="bar bar-nav bar-light" style="background-color: #4590ff; ">
+            <h1  style = "color: #ffffff;" class="title"></h1>
+            
+          </header>
+          <div class="content">
+            <div class="content-padded">
+                
+
+                <div class="card">
+                    <img width="360px" class="card-img-top" data-src="holder.js/100px180/" alt="Card image cap" src="./image/sealook.jpg" >
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">식육목 물범과 짐승의 통칭이다.[1] 또다른 말로는 물범, 수표, 해표(海豹) 등으로 부른다. 이름이 '바다'표범이듯 주로 바다에서 서식하지만, 바이칼물범과 카스피물범처럼 바다가 아닌 호수에 서식하는 종류도 있다. 이 중 카스피물범이 사는 카스피해는 바닷물처럼 짜디짠 함수호라서 다른 바다와 환경이 비슷하지만, 바이칼 호는 담수호라서 바이칼물범은 유일하게 담수에서만 사는 바다표범이다</p>
+                      <button type="button" class="btn btn-primary"data-toggle="page" data-start="#page01" data-target="#page02">자세히 보기</button>
+                      <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal">이미지 보기 </button>
+                    </div>
+                  </div>
+        </div>
+          </div>
+          <nav class="bar bar-tab bar-light bg-faded">
+            <a class="tab-item active" role="button">
+              <span class="icon icon-home"></span>
+              <span class="tab-label">Home</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-person"></span>
+              <span class="tab-label">Profile</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-star-filled"></span>
+              <span class="tab-label">Favorites</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-search"></span>
+              <span class="tab-label">Search</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-gear"></span>
+              <span class="tab-label">Settings</span>
+            </a>
+          </nav>
+    </section>
+
+
+    <section class="page right" id = "page02">
+        <header class="bar bar-nav bar-light" style="background-color: #4590ff;">
+            <h1 class="title">second</h1>
+            <button class="btn btn-link btn-nav pull-left" data-history = "back">
+                <span class="icon icon-left-nav"></span>
+                이전
+              </button>
+          </header>
+          <div class="content">
+            <div class="content-padded">
+            속았지
+        </div>
+          </div>
+          
+          <nav class="bar bar-tab bar-light bg-faded">
+            <a class="tab-item active" role="button">
+              <span class="icon icon-home"></span>
+              <span class="tab-label">Home</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-person"></span>
+              <span class="tab-label">Profile</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-star-filled"></span>
+              <span class="tab-label">Favorites</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-search"></span>
+              <span class="tab-label">Search</span>
+            </a>
+            <a class="tab-item" role="button">
+              <span class="icon icon-gear"></span>
+              <span class="tab-label">Settings</span>
+            </a>
+          </nav>
+    </section>
+
+    <div id="modal" class="modal">
+        <header class="bar bar-nav bar-light bg-faded">
+          <a class="icon icon-close pull-right" data-dismiss="modal" role="button"></a>
+          <h1 class="title">Modal</h1>
+        </header>
+        <div class="content">
+          <p class="content-padded">
+            난 모달이양 
+          </p>
+        </div>
+      </div>
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://supsok.github.io/gbsw/touchstrap/js/touchstrap.js"></script>
+</body>
+</html>
